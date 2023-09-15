@@ -1,0 +1,323 @@
+.main{
+    width:100%;
+    height: 100%;
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+    
+}
+/* name shop */
+.header__login{
+    position: absolute;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    width:100%;
+    top:30px;
+   
+    
+}
+.header__login h1{
+    font-size: 4rem;
+    font-weight:700;
+    color:#fff;
+}
+
+/* container */
+
+.container__login{
+    background-image: linear-gradient(to left, rgb(237,241,238),rgb(229,229,229));
+    border-radius: 10px;
+    border: 2px solid #e3e3e3;
+    width: 1000px;
+    height: 630px;
+    display: flex;
+    justify-content: end;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 160px;
+}
+
+/* img */
+.container__login-img{
+    width: 100%;
+    height:100%;
+}
+
+
+.container-login__img{
+    width: 60%;
+    height: 100%;
+}
+
+/* form login */
+.form__login{
+    position:absolute;
+    width:40%;
+    height:100%;
+    background-color: #fff;
+    float:right;
+}
+
+.form__login-heading{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    width: 100%;
+    top: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 145px;
+    color: #ae2851;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+}
+
+.form__login-user{
+    padding-left: 0;
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.form__login-user-item{
+    width: 282px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    margin: 0 auto 16px auto;
+    color: var(--gray--color);
+    
+}
+.form__login-user--input{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    padding-left: 28px;
+    outline: none;
+    border-radius: inherit;
+    z-index: 1;
+    background: transparent; /* thuoc tinh này để khi nhấn vào thẻ icon vẫn ăn input*/
+}
+/* focus */
+.form__login-user--input:focus{
+    border: 1px solid #333;
+}
+/* icon email */
+.user-icon--email,
+.user-icon--lock{
+    font-size: 1.6rem;
+    position: absolute;
+    left:8px;
+}
+
+/* lock  */
+.user-icon--eye{
+    font-size: 1.6rem;
+    position: absolute;
+    right:8px;
+    z-index: 2;
+    cursor: pointer;
+}
+/* forgot */
+.form__login-span{
+    color: #ba3e49;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    right: 60px;
+    text-align: right;
+    right: ri;
+    margin-right: 60px;
+}
+
+
+.form__login-span:hover{
+    cursor: pointer;
+    color: #ff0068;
+
+}
+
+/* button */
+.form__login-button{
+    width: 282px;
+    height: 40px;
+    margin: 32px auto 0 auto;
+    border-radius: 16px;
+}
+.form__login-button--click{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #e58299;
+    color: #fff;
+}
+/*hover */
+
+.form__login-button--click:hover{
+    background-color:  #ea95a9;
+}
+
+/* OR */
+.form__login-or{
+    width: 210px;
+    height: 18px;
+    margin: 8px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.form__login-or-item{
+    font-size: 1.2rem;
+    color: var(--gray--color);
+    font-weight: 500;
+}
+/* lop gia */
+.form__login-span--separate::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 90px;
+    background-color: #E6E9FA;
+    top: 10px;
+    left: 6px;
+}
+
+.form__login-span--separate::after{ 
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 90px;
+    background-color: #E6E9FA;
+    top: 10px;
+    right: 6px;
+}
+
+/* icon web */
+.form__login-web{
+    width: 282px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 18px auto 0 auto;
+}
+
+.form__login--link-button-google,
+.form__login--link-button-git{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 1px solid #e58299;
+    background-color: #fff;
+    
+}
+/* hover */
+.form__login--link-button-google:hover,
+.form__login--link-button-git:hover{
+    cursor: pointer;
+    background-color: #ede0e4;
+    color: #000;
+}
+
+/* google */
+.form__login--link-google{
+    width: 100%;
+    height: 100%;   
+     padding-right: 4px;
+
+}
+
+.form__login--link-button-google{
+    font-size: 1.2rem;
+    color: var(--gray--color);
+}
+/* icon gg */
+.form__login--icon-gg{
+    width: 20px;
+    height: 20px;
+    margin-left: -6px;
+    margin-right: 5px;
+
+}
+
+/* git */
+
+.form__login--link-git{
+    width: 100%;
+    height: 100%;   
+    padding-left: 4px;    
+}
+
+.form__login--link-button-git{
+    font-size: 1.2rem;
+    color: var(--gray--color);
+    padding-bottom: 4px;
+    
+}
+.form__login--icon-git{
+    font-size: 1.8rem;
+    margin-right: 5px;
+}
+
+    
+
+/* have no account */
+
+.form__login-account{
+    width: 210px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    margin: 24px auto 0 auto;
+    justify-content: center;
+}
+/* hover */
+.form__login-account--span{
+    width: 100%;
+    height: 100%;
+    color: var(--gray--color);
+    font-weight: 500;
+    text-align: center;   
+}
+
+/* hover */
+.form__login-account--span:hover{
+    cursor: pointer;
+    color: #333;
+}
+
+
+/* registration */
+.form__login-registration{
+    text-align: center;
+    margin-top: 16px;
+  
+}
+
+.form__login-registration--item{
+    font-size: 1.2rem;
+    color: var(--gray--color);
+    font-weight: 600;
+    border: 1px solid #e58299;
+    background-color: var(--white--color);
+
+}
+
+.form__login-registration--item:hover{
+    background-color: #ede0e4;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
